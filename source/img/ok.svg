@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-1502.22,-2056.49)">
+        <g id="odnoklassniki-logo" transform="matrix(1,-0,-0,1,1502.22,2056.49)">
+            <use xlink:href="#_Image1" x="0" y="0" width="27.909px" height="27.909px" transform="matrix(0.996739,0,0,0.996739,0,0)"/>
+        </g>
+    </g>
+    <defs>
+        <image id="_Image1" width="28px" height="28px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACH0lEQVRIib3WzYtPcRTH8ddoSLFQnndsRAYLx0KZmqEsKCUpFkQ2NkpWNhoW/gSWaiw8hBWyMuyIoyTkmY3HUvKQ5HFx70/XNDP3zvhx6ta555z7efd9OvfbkZl7cACT/Vv7iL6OzPzwH2C/oZ1jgL3BDfzAMswYxbeTO0dR/BQ7IuJSNZiZPTiCuU1ExjWEXcOiwTCIiMtYXNa0BfgZWyPiUyuQmd2Z2V2BfsR2fKkT68jMnzU1/RGxrQRNwwAWlbnb6ImIt2X+KLaMJNZkhNWp2l6BQVcZa9mNOrEmwGcVf+UQ+Z6K/7gdwK6Kf2yI/PFhascMXFHxT+Iw3pfPIZwepnZIa7JpYE1EXGi9ZOYkdJS7sxVbg/PtAr7A2oi4OVQyM5fgAma3CwhfcRCncK+Mzccm7MX4JiJ1a3hOcQx2Kka5H3fwTrGGd7APr7ALC3B2JMG6Ea6KiAHIzE5sVmyM+fiOJ7iMExHxrazrVTSHMQHPYFNLrM4ycwr6sW64mrop3YBbmbm+AWw97o4EY3Sb5gGu4GxEnKlANmI55jQRafp7gnlYrWjYLbuF7qaw0QJfojci7rcCEfEYvXjebuAfsMyckJkTS+gjRQNvBG0CfD0INhXXCzdnVKC9irP618B9g2ADiivFQlzMzOkl9CF2twPYU4FdLGEt66pCMbNOrOmxOI+lmDVM/h2uYpWanvrfL8Lj0Ke4hv9zGPp+AbUMysun3qmYAAAAAElFTkSuQmCC"/>
+    </defs>
+</svg>

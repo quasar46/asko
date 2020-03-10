@@ -1,0 +1,30 @@
+.change-face {
+  display: flex;
+  max-width: 556px;
+  width: 100%;
+}
+
+.change-face__left {
+  flex: 1;
+}
+
+.change-face__right {
+  flex: 1;
+}
+
+.change-face__btn {
+  border: none;
+  width: 100%;
+
+  &.active,
+  &:hover,
+  &:focus {
+    height: 5px;
+    background-color: $blue;
+  }
+}
+
+.change-face__text {
+  text-align: center;
+  font-size: 17px;
+}

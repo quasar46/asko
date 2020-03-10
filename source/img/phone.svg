@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-1433.31,-28.5371)">
+        <g id="telephone-handle-silhouette" transform="matrix(1,-0,-0,1,1433.31,28.5371)">
+            <use xlink:href="#_Image1" x="0" y="0" width="15.7px" height="15.701px" transform="matrix(0.98123,0,0,0.981288,0,0)"/>
+        </g>
+    </g>
+    <defs>
+        <image id="_Image1" width="16px" height="16px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABKElEQVQ4jZXSrUskcRjA8c+ui2gaBaOggnoGk0UsTjGJCAuGg4PrB4PprtlEgzYZ0C6+JAVRi2mS+zeIcKyYbIPFBRWDI8yOG2ae9DxfnufL83upQRDGa9hGDXNpEj0rGfUgjBdwhClMYqPsMNTxB/05th6E8UQVwVKBDWCnimCwwN5xUUWQ5Oo3NNMkOqwiOM7Vj7gsO/wlOEM7q8fwt5IgTaJX3Ze2lT1t6Q3gANdZ3sBJEMYjZQS1ryQI4wAtzGToAT/TJLrN9fzGKv6lSfS/S5A1TGeS4Qy9+vyZu1jBebZ1B3vY7BLkJBf4kcNtjKKv0H5fLwBpEt1hHlc5PNZjGN57QZ32dWdgfPkUT5jFUK82RN+OUIwgjBto4hcW8YIb7KdJ1PoAbLRGUrTNrxoAAAAASUVORK5CYII="/>
+    </defs>
+</svg>

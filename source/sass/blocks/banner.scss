@@ -1,0 +1,53 @@
+.banner {
+  height: 470px;
+  color: white;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.banner__left {
+  background-color: $blue;
+  flex: 1;
+  box-sizing: border-box;
+  position: relative;
+
+  &::before {
+    content: "";
+    width: 100%;
+    left: -100%;
+    position: absolute;
+    background-color: $blue;
+    display: block;
+    height: 100%;
+  }
+}
+
+.banner__right {
+  flex: 1;
+  box-sizing: border-box;
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+}
+
+.banner__text {
+  font-size: 17px;
+}
+
+.banner__title {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.banner__subtitle {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.banner__btn {
+  border: none;
+  color: $text;
+  font-size: 16px;
+  width: 195px;
+  height: 46px;
+  background-color: white;
+}
