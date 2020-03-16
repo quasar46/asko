@@ -2,29 +2,33 @@
   display: flex;
   max-width: 556px;
   width: 100%;
+  margin-bottom: 40px;
+  overflow: hidden;
 }
 
-.change-face__left {
+.change-face__wrapper {
   flex: 1;
-}
+  cursor: pointer;
 
-.change-face__right {
-  flex: 1;
+  &.active {
+    .change-face__btn {
+      height: 5px;
+      background-color: $blue;
+    }
+  }
 }
 
 .change-face__btn {
   border: none;
   width: 100%;
-
-  &.active,
-  &:hover,
-  &:focus {
-    height: 5px;
-    background-color: $blue;
-  }
+  height: 2px;
+  cursor: pointer;
+  background-color: #ccc;
+  margin-bottom: 15px;
 }
 
 .change-face__text {
   text-align: center;
   font-size: 17px;
+  cursor: pointer;
 }

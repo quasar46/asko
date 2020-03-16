@@ -13,6 +13,9 @@ header.container {
   background-position: center center;
   background-repeat: no-repeat;
   margin-right: 25px;
+  border: none;
+  cursor: pointer;
+  outline: none;
 }
 
 .header__right {
@@ -25,7 +28,12 @@ header.container {
   margin-left: auto;
   display: flex;
 
+  align-items: center;
+
   .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: $blue;
     color: white;
     font-size: 17px;
@@ -34,13 +42,11 @@ header.container {
     margin-right: 10px;
     border: none;
     cursor: pointer;
-  }
-}
 
-.header__contacts {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+    svg {
+      margin-right: 10px;
+    }
+  }
 }
 
 .header__contacts {
@@ -58,5 +64,13 @@ header.container {
     color: $blue;
     font-weight: 700;
     font-size: 17px;
+  }
+}
+
+.header__phone {
+  margin-right: 40px;
+
+  svg {
+    margin-right: 15px;
   }
 }

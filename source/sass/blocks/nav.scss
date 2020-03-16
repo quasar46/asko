@@ -8,16 +8,26 @@
     display: inline-block;
     color: $text;
 
+    &.active::after {
+      content: "";
+      display: block;
+      position: absolute;
+      background-color: $blue;
+      height: 5px;
+      left: 0%;
+      width: 100%;
+    }
+
     &::after {
       content: "";
       display: block;
       position: absolute;
       background-color: $blue;
       height: 5px;
-      left: 50%;
+      left: 0%;
       width: 0%;
       transition: width .3s ease-in-out;
-      transform: translateX(-50%);
+      // transform: translateX(-50%);
     }
 
     &:hover::after {

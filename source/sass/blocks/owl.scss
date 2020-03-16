@@ -1,0 +1,21 @@
+.slider.owl-carousel .owl-nav .owl-prev {
+  background-image: url("../img/arrow-l.svg");
+  width: 48px;
+  height: 21px;
+  background-repeat: no-repeat;
+
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+.slider.owl-carousel .owl-nav .owl-next {
+  background-image: url("../img/arrow-r.svg");
+  width: 48px;
+  height: 21px;
+  background-repeat: no-repeat;
+
+  &:hover {
+    background-color: transparent;
+  }
+}

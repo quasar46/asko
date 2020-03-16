@@ -1,7 +1,67 @@
 .insurance-wrapper {
-  display: flex;
+  display: none;
+  justify-content: space-between;
+  padding: 0 50px;
+  margin-bottom: 100px;
+
+  &.active {
+    display: flex;
+  }
 
   .item {
+    padding: 10px;
+    box-sizing: border-box;
+
+    img {
+      width: 120px;
+    }
+  }
+
+  img.item__img-hover {
+    display: none;
+  }
+
+  .item a {
+    display: flex;
+    flex-direction: column;
     box-shadow: 0 0 10px #ccc;
+    width: 266px;
+    box-sizing: border-box;
+    padding: 30px;
+    height: 259px;
+
+    &:hover {
+      background-color: $blue;
+      transition: 0.3s;
+      transform: scale(1.2);
+    }
+
+    &:hover .item__img {
+      display: none;
+    }
+
+    &:hover p {
+      color: white;
+    }
+
+    &:hover .item__img-hover {
+      display: block;
+    }
+
+    img {
+      align-self: center;
+      margin-top: auto;
+    }
+  }
+
+  .item__name {
+    color: #808080;
+    font-size: 17px;
+  }
+
+  .item__title {
+    color: $blue;
+    font-weight: 700;
+    text-transform: uppercase;
   }
 }

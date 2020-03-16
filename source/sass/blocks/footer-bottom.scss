@@ -1,0 +1,14 @@
+.footer-bottom {
+  display: flex;
+
+  a {
+    font-size: 16px;
+    color: #808080;
+  }
+}
+
+.footer-bottom__left {
+  display: flex;
+  align-items:flex-start;
+  flex-direction: column;
+}
