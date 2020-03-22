@@ -1,0 +1,34 @@
+.compensation__title {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $blue;
+
+  span {
+    font-size: 18px;
+    text-transform: lowercase;
+  }
+}
+
+.compensation__item {
+  display: flex;
+
+  @media(max-width: 576px) {
+    flex-direction: column;
+  }
+}
+
+.compensation__pic {
+  text-align: center;
+  flex: 1 0 170px;
+  max-width: 170px;
+  margin-right: 50px;
+
+  @media(max-width: 992px) {
+    max-width: 120px;
+  }
+
+  @media(max-width: 576px) {
+    flex: none;
+  }
+}

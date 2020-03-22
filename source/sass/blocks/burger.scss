@@ -1,0 +1,52 @@
+.burger {
+  width: 59px;
+  height: 42px;
+  position: relative;
+  cursor: pointer;
+  display: none;
+
+
+  span {
+    height: 6px;
+    background-color: #ccc;
+    position: absolute;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+
+    &:first-child {
+      top: 0;
+    }
+
+    &:last-child {
+      bottom: 0;
+      width: 70%;
+      left: auto;
+      right: 0;
+    }
+
+    &:nth-child(2) {
+      top: 50%;
+      margin-top: -3px;
+
+      @media(max-width:576px) {
+        margin-top: -2px;
+      }
+    }
+
+    @media(max-width: 576px) {
+      height: 3px;
+    }
+  }
+
+  @media(max-width: 1024px) {
+    display: block;
+  }
+
+  @media(max-width: 576px) {
+    width: 26px;
+    height: 19px;
+    margin-left: auto;
+    margin-bottom: 20px;
+  }
+}

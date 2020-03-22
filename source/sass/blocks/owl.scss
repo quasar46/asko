@@ -1,21 +1,31 @@
-.slider.owl-carousel .owl-nav .owl-prev {
+.slider.owl-carousel .owl-nav .owl-prev,
+.slider3.owl-carousel .owl-nav .owl-prev {
   background-image: url("../img/arrow-l.svg");
   width: 48px;
   height: 21px;
   background-repeat: no-repeat;
+  box-shadow: none;
 
   &:hover {
     background-color: transparent;
   }
 }
 
-.slider.owl-carousel .owl-nav .owl-next {
+.slider.owl-carousel .owl-nav .owl-next,
+.slider3.owl-carousel .owl-nav .owl-next {
   background-image: url("../img/arrow-r.svg");
   width: 48px;
   height: 21px;
   background-repeat: no-repeat;
+  box-shadow: none;
 
   &:hover {
     background-color: transparent;
   }
+}
+
+.owl-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }

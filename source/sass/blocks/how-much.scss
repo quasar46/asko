@@ -1,0 +1,37 @@
+.how-much__title {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $blue;
+
+  span {
+    font-size: 18px;
+    text-transform: lowercase;
+  }
+}
+
+.how-much__percent {
+  font-size: 40px;
+  color: $blue;
+  font-weight: 700;
+
+  @media(max-width: 576px) {
+    margin-top: 0;
+  }
+}
+
+.how-much__wrap {
+  display: flex;
+
+  @media(max-width: 576px) {
+    flex-direction: column;
+  }
+}
+
+.how-much__left {
+  width: 50%;
+
+  @media(max-width: 576px) {
+    width: 100%;
+  }
+}

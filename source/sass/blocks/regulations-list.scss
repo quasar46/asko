@@ -1,0 +1,44 @@
+.regulations-list__text {
+  color: #808080;
+  margin-top: 0;
+}
+
+.regulations-list__title {
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.regulations-list__item {
+  padding-left: 40px;
+  box-sizing: border-box;
+  border-left: 16px solid transparent;
+  cursor: pointer;
+  position: relative;
+
+  &.active,
+  &:hover {
+    border-left: 16px solid $blue;
+    box-shadow: 0 0 5px #ccc;
+
+    &::before {
+      content: "";
+      position: absolute;
+      display: block;
+      top: 50%;
+      right: 20px;
+      background-image: url("../img/download-icn.svg");
+      width: 20px;
+      height: 20px;
+      margin-top: -10px;
+    }
+  }
+
+  @media(max-width: 768px) {
+    border-left: 6px solid transparent;
+    padding-left: 5px;
+
+    &:hover {
+      border-left: 6px solid $blue;
+    }
+  }
+}

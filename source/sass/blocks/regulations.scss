@@ -1,0 +1,30 @@
+.regulations__tab {
+  display: flex;
+  flex-wrap: wrap;
+
+
+  .tablinks {
+    background-color: transparent;
+    text-align: left;
+    border: none;
+    border-top: 2px solid #ccc;
+    outline: none;
+    cursor: pointer;
+    color: #999;
+    padding-top: 10px;
+    margin-bottom: 10px;
+
+
+    &.active,
+    &:hover {
+      color: #333;
+      border-top: 5px solid $blue;
+    }
+  }
+
+  .br {
+    display: block;
+  }
+}
+
+.tablinks {}

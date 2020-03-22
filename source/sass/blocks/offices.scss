@@ -1,0 +1,11 @@
+.offices__title {
+  font-size: 40px;
+
+  @media(max-width: 768px) {
+    font-size: 24px;
+    background-color: $blue;
+    color: white;
+    height: 83px;
+    line-height: 83px;
+  }
+}

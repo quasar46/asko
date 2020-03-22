@@ -1,0 +1,15 @@
+.price-wrapper {
+  display: flex;
+  margin-bottom: 70px;
+
+  @media(max-width: 992px) {
+    flex-direction: column;
+  }
+}
+
+.price-wrapper>div {
+  width: 50%;
+  @media(max-width: 992px) {
+    width: 100%;
+  }
+}

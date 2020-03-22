@@ -1,0 +1,21 @@
+.submap-wrapper {
+  height: 100%;
+  position: absolute;
+  right: 50px;
+  bottom: 20px;
+  z-index: 10;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 30px;
+  height: 390px;
+  overflow: hidden;
+
+  @media(max-width: 768px) {
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    padding-left: 15px;
+    left: 0;
+    height: auto;
+  }
+}

@@ -1,0 +1,34 @@
+.offices-list__item {
+  border-left: 16px solid transparent;
+  width: 50%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 20px;
+  cursor: pointer;
+
+  &.active,
+  &:hover {
+    border-left: 16px solid $blue;
+    box-shadow: 0 0 5px #ccc;
+
+    @media(max-width: 768px) {
+      border-left: 6px solid $blue;
+    }
+  }
+
+  @media(max-width: 768px) {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-left: 6px solid transparent;
+  }
+}
+
+.offices-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.offices-list__title {
+  margin: 0;
+}

@@ -2,7 +2,6 @@
   display: none;
   justify-content: space-between;
   padding: 0 50px;
-  margin-bottom: 100px;
 
   &.active {
     display: flex;
@@ -24,16 +23,14 @@
   .item a {
     display: flex;
     flex-direction: column;
-    box-shadow: 0 0 10px #ccc;
-    width: 266px;
+    box-shadow: 0 0 5px #ccc;
     box-sizing: border-box;
     padding: 30px;
-    height: 259px;
 
     &:hover {
       background-color: $blue;
       transition: 0.3s;
-      transform: scale(1.2);
+      transform: scale(1.1);
     }
 
     &:hover .item__img {
@@ -52,16 +49,47 @@
       align-self: center;
       margin-top: auto;
     }
+
+    @media(max-width: 576px) {
+      padding: 15px;
+    }
   }
 
   .item__name {
     color: #808080;
     font-size: 17px;
+    margin: 0;
   }
 
   .item__title {
     color: $blue;
     font-weight: 700;
     text-transform: uppercase;
+    margin-top: 10px;
+
+    .on-desktop {
+      display: inline;
+
+      @media(max-width: 576px) {
+        display: none;
+      }
+    }
+
+    .on-mobile {
+      display: none;
+
+      @media(max-width: 576px) {
+        display: inline;
+      }
+    }
+
+    @media(max-width: 576px) {
+      font-size: 16px;
+      margin-top: 0;
+    }
+  }
+
+  @media(max-width: 576px) {
+    padding: 0 10px;
   }
 }

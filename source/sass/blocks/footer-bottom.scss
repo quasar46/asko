@@ -4,11 +4,22 @@
   a {
     font-size: 16px;
     color: #808080;
+    @media(max-width: 1024px) {
+      font-size: 14px;
+    }
+  }
+
+  @media(max-width: 1024px) {
+    flex-direction: column;
   }
 }
 
 .footer-bottom__left {
   display: flex;
-  align-items:flex-start;
+  align-items: flex-start;
   flex-direction: column;
+
+  @media(max-width: 1024px) {
+    order: 1;
+  }
 }

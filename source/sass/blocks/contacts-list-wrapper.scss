@@ -1,0 +1,25 @@
+.contacts-list-wrapper {
+  display: flex;
+  margin-bottom: 40px;
+
+  @media(max-width: 768px) {
+    margin-bottom: 0;
+  }
+
+  @media(max-width: 576px) {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+}
+
+.contacts-list-wrapper>ul {
+  width: 50%;
+
+  &.contacts-list--mode {
+    width: 100%;
+  }
+
+  @media(max-width: 576px) {
+    width: 100%;
+  }
+}

@@ -1,0 +1,72 @@
+.insurance-program__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.insurance-program__title {
+  color: $blue;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.insurance-program__hover {
+  position: absolute;
+  opacity: 0;
+  background-color: $blue;
+  color: white;
+  width: 266px;
+  padding: 30px;
+  box-sizing: border-box;
+
+  h3 {
+    color: white;
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+.insurance-program__text {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: $blue;
+}
+
+.insurance-program__item {
+  height: 259px;
+  width: calc(100% / 3);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 45px;
+  padding-right: 10px;
+  box-sizing: border-box;
+
+  &:hover {
+    .insurance-program__hover {
+      opacity: 1;
+      transform: scale(1.1);
+      transition: all .3s ease-out;
+    }
+  }
+
+  @media(max-width: 768px) {
+    width: calc(100% / 2);
+  }
+
+  @media(max-width: 400px) {
+    width: calc(100%);
+  }
+}
+
+.insurance-program__inner {
+  width: 266px;
+  box-shadow: 0 0 5px #ccc;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 40px 30px;
+}

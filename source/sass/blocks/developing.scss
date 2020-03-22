@@ -1,0 +1,96 @@
+.developing__text {
+  position: relative;
+
+  span {
+    font-size: 40px;
+    font-weight: 700;
+    color: $blue;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+    display: block;
+
+    @media(max-width: 768px) {
+      font-size: 18px;
+      text-align: center;
+    }
+  }
+}
+
+.developing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+
+.developing__gear1-pic {
+  position: absolute;
+  width: 243px;
+  height: 243px;
+  top: -200px;
+  left: -200px;
+
+  svg {
+    fill: rgb(213, 213, 213);
+  }
+
+  @media(max-width: 768px) {
+    width: 88px;
+    height: 88px;
+    top: -100px;
+    left: -20px;
+  }
+
+  @media(max-width: 400px) {
+    left: 20px;
+  }
+}
+
+.developing__gear2-pic {
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  top: -50px;
+  left: 0;
+  transform: rotate(90deg);
+
+  svg {
+    fill: rgb(213, 213, 213);
+  }
+
+  @media(max-width: 768px) {
+    width: 27px;
+    height: 27px;
+    top: 30px;
+    left: 350px;
+  }
+
+  @media(max-width: 400px) {
+    left: 250px;
+  }
+}
+
+.developing__gear3-pic {
+  position: absolute;
+  width: 86px;
+  height: 86px;
+  top: 100px;
+  left: 50px;
+
+  svg {
+    fill: rgb(213, 213, 213);
+  }
+
+  @media(max-width:768px) {
+    width: 45px;
+    height: 45px;
+    top: 50px;
+    left: 300px;
+  }
+
+  @media(max-width: 400px) {
+    left: 200px;
+  }
+}

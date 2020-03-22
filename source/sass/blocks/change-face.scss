@@ -3,7 +3,9 @@
   max-width: 556px;
   width: 100%;
   margin-bottom: 40px;
-  overflow: hidden;
+  @media(max-width: 576px) {
+    margin-bottom: 20px;
+  }
 }
 
 .change-face__wrapper {
@@ -21,14 +23,31 @@
 .change-face__btn {
   border: none;
   width: 100%;
-  height: 2px;
   cursor: pointer;
-  background-color: #ccc;
   margin-bottom: 15px;
-}
-
-.change-face__text {
   text-align: center;
   font-size: 17px;
   cursor: pointer;
+  border-top: 2px solid #ccc;
+  padding-top: 15px;
+
+  &:hover,
+  &.active {
+    border-top: 5px solid $blue;
+  }
+}
+
+.change-face__text {
+  display: block;
+
+  i.br {
+    @media(max-width: 576px) {
+      display: block;
+    }
+  }
+
+  @media(max-width: 576px) {
+    text-align: left;
+    line-height: 20px;
+  }
 }

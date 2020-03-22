@@ -1,0 +1,17 @@
+.new-list {
+  margin-right: -40px;
+  display: flex;
+
+  @media(max-width: 768px) {
+    flex-wrap: wrap;
+  }
+}
+
+.new-list__item {
+  margin-right: 40px;
+
+  @media(max-width: 768px) {
+    width: 100%;
+    text-align: center;
+  }
+}

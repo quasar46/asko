@@ -1,0 +1,33 @@
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-list__item {
+  display: flex;
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  svg {
+    margin-right: 20px;
+    margin-top: 5px;
+    fill: $blue;
+  }
+  @media(max-width: 768px) {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+}
+
+.contacts-list__item-phones {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-list__item-time-work {
+  max-width: 320px;
+  width: 100%;
+}

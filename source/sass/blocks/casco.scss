@@ -1,0 +1,18 @@
+.casco {
+  h2.casco__title {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $blue;
+
+    span {
+      font-size: 18px;
+      text-transform: lowercase;
+    }
+
+    @media(max-width: 576px) {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

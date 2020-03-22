@@ -1,0 +1,18 @@
+.casco-list {
+  li {
+    padding-left: 20px;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      display: block;
+      left: 0;
+      top: 50%;
+      width: 6px;
+      height: 5px;
+      background-color: $blue;
+      margin-top: -3px;
+    }
+  }
+}

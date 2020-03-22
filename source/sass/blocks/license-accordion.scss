@@ -1,0 +1,80 @@
+.license-accordion {
+  button {
+    color: $blue;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: transparent;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px #ccc;
+    margin-bottom: 30px;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &.active,
+    &:hover {
+      border-left: 16px solid $blue;
+
+      @media(max-width: 768px) {
+        border-left: 0;
+      }
+    }
+
+    &.active {
+      img.plus-icn {
+        display: none;
+      }
+
+      img.minus-icn {
+        display: block;
+      }
+    }
+
+    @media(max-width: 768px) {
+      width: 100%;
+      box-shadow: none;
+      padding: 0;
+      font-size: 16px;
+    }
+  }
+
+  .panel {
+    padding-left: 40px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+
+    @media(max-width: 768px) {
+      padding-left: 0;
+    }
+  }
+
+  img.minus-icn,
+  img.plus-icn {
+    display: none;
+  }
+
+  @media(max-width: 768px) {
+    font-size: 16px;
+    img.plus-icn {
+      display: block;
+    }
+  }
+}
+
+.license-accordion__link-download {
+  margin-bottom: 15px;
+
+  svg {
+    margin-right: 20px;
+    fill: $blue;
+  }
+}

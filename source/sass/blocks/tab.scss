@@ -1,0 +1,20 @@
+.tabcontent {
+  display: none;
+
+  &.active {
+    display: block;
+  }
+}
+
+// .tab {
+//   display: flex;
+// }
+
+// .tablinks {
+//   border-top: 5px solid transparent;
+//   padding: 20px 60px;
+
+//   &.active {
+//     border-top: 5px solid $blue;
+//   }
+// }
