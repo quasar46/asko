@@ -1,3 +1,12 @@
+.regulations__title {
+  margin-bottom: 20px;
+  font-size: 40px;
+
+  @media(max-width: 768px) {
+    font-size: 24px;
+  }
+}
+
 .regulations-list__text {
   color: #808080;
   margin-top: 0;
@@ -14,6 +23,7 @@
   border-left: 16px solid transparent;
   cursor: pointer;
   position: relative;
+  margin-bottom: 20px;
 
   &.active,
   &:hover {
@@ -30,6 +40,11 @@
       width: 20px;
       height: 20px;
       margin-top: -10px;
+
+      @media(max-width: 768px) {
+        content: "";
+        background-image: none;
+      }
     }
   }
 

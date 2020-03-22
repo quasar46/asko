@@ -1,5 +1,10 @@
 .picture-block {
   display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+  @media(max-width: 768px) {
+    margin-bottom: 40px;
+  }
 
   @media(max-width: 576px) {
     flex-direction: column;
